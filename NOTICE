@@ -1,0 +1,7 @@
+Agent Skill Telemetry
+Copyright 2026 Reality Software Entertainment, LLC
+
+The telemetry core, Claude adapter and read-only skill registry in this
+repository are licensed under Apache-2.0. Third-party dependencies retain
+their own licenses. No proprietary desktop, account or cloud implementation
+is included in this license grant.

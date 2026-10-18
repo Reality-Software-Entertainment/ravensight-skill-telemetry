@@ -1,0 +1,22 @@
+[package]
+license.workspace = true
+name = "claude-adapter"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+telemetry-core = { path = "../telemetry-core" }
+skill-registry = { path = "../skill-registry" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+getrandom = "0.3"
+
+[dev-dependencies]
+rusqlite.workspace = true
+tempfile.workspace = true
+
+[[bin]]
+name = "skill-monitor"
+path = "src/main.rs"
